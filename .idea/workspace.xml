@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae9fe959-c881-46c3-a017-f3511f7cc5a1" name="Changes" comment="correction">
-      <change afterPath="$PROJECT_DIR$/img/Снимок_экрана_2024-08-29_104231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Снимок_экрана_2024-08-29_135219.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Реляционные базы данных и администрирование баз данных/hw_12-05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae9fe959-c881-46c3-a017-f3511f7cc5a1" name="Changes" comment="correction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "HW__12-05",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/vasil/PycharmProjects/Works/Реляционные базы данных и администрирование баз данных",
     "settings.editor.selected.configurable": "Console"
@@ -330,6 +325,7 @@
     <MESSAGE value="UPDATE task1 DDL_DML.md" />
     <MESSAGE value="add screen" />
     <MESSAGE value="correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+    <MESSAGE value="hw_12-05.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_12-05.md" />
   </component>
 </project>
