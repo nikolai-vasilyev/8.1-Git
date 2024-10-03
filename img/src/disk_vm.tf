@@ -19,6 +19,7 @@ resource "yandex_compute_instance" "storage" {
   scheduling_policy {
     preemptible = var.vm_preemptible
   }
+  depends_on = [yandex_compute_instance.web, yandex_compute_disk.default, yandex_vpc_security_group.example]
   boot_disk {
     initialize_params {
       image_id = data.yandex_compute_image.web.image_id
@@ -27,7 +28,7 @@ resource "yandex_compute_instance" "storage" {
   dynamic "secondary_disk" {
     for_each = yandex_compute_disk.default.*.id
     content {
-      disk_id = yandex_compute_disk.default["${secondary_disk.key}"].id
+      disk_id = secondary_disk.value
     }
   }
   network_interface {

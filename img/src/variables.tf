@@ -49,3 +49,7 @@ variable "vm_preemptible" {
   default     = true
   description = "preemptible on"
 }
+# variable "secondary_disk" {
+#   type        = map(map(string))
+#   default     = {}
+# }
